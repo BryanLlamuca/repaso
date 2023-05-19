@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">repaso</string>
+
+    <string name="textview_nombre">nombre</string>
+    <string name="button_acept">aceptar</string>
+
+    <string name="textview_nombre2">Segunda Pantalla</string>
+    <string name="button_aceptar2">Atras</string>
+    <string name="button_aceptarSiguiente">Siguiente</string>
+
+
+    <string name="textview_nombre3">Tercera Pantalla</string>
+
+    <string name="button_acept_atras">Ir a tras</string>
+    <string name="button_acept_principio">Ir al principio</string>
+
+
+
+
+
+</resources>

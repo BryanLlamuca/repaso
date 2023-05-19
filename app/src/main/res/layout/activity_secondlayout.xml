@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".secondlayout">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:fontFamily="casual"
+        android:text="@string/textview_nombre2"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView_nombreTraido"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:fontFamily="casual"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/editText_nombre21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_ok2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviarNombre2"
+        android:text="@string/button_aceptar2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:onClick="enviarNombreSiguiente"
+        android:text="@string/button_aceptarSiguiente" />
+</LinearLayout>
